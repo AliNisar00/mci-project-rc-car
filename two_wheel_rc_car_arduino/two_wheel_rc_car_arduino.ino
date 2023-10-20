@@ -1,10 +1,10 @@
 // Motor A,B, Arduino and L298N connections
-const int enA = 26;   //ENABLE pin for Motor A to provide PWM 
-const int enB = ;     //ENABLE pin for Motor B to provide PWM 
-const int in1 = 11;   //IN1 pin for Motor A for direction
-const int in2 = 12;   //IN2 pin for Motor A for direction
-const int in3 = ;     //IN3 pin for Motor B for direction
-const int in4 = ;     //IN4 pin for Motor B for direction
+const int enA = 9;   //ENABLE pin for Motor A to provide PWM 
+const int enB = 10;     //ENABLE pin for Motor B to provide PWM 
+const int in1 = 4;   //IN1 pin for Motor A for direction
+const int in2 = 5;   //IN2 pin for Motor A for direction
+const int in3 = 6;     //IN3 pin for Motor B for direction
+const int in4 = 7;     //IN4 pin for Motor B for direction
 
 void setup() {
   Serial.begin(115200); //Serial initializing for Debugging
